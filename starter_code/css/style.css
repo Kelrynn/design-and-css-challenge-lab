@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: design-and-css-challenge-lab
+Client: "Relaxr"
+Author: Cameron Castells
+Developer @GA in Denver
 */
 
 
@@ -62,12 +62,16 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
+  margin-top: 0px;
 
 }
 
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  height: 700px;
+  color: white;
+  text-align: center;
 }
 
 footer {
@@ -80,7 +84,43 @@ footer {
 
 h1 {
   font-size: 24px;
+  font-weight: 900;
+  padding: 10px;
+  float: left;
+  margin: 80px;
+  margin-top: 25px;
+  margin-bottom: 120px;
+  
+}
 
+h2 {
+  font-size: 24px;
+  font-weight: 550;
+  clear:left;
+  padding: 10px;
+  margin: 70px 0;
+}
+
+#benefit {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  font-weight: 550;
+}
+
+.sect1 {
+  background-color: #f0efef;
+}
+
+#getButton {
+  font-weight: 900;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #033048;
+  background-color: #f9e42e;
+  padding: 10px;
+  width: 200px;
+  margin: 70px 0;
 }
 
 
