@@ -61,7 +61,7 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 450px;
   margin-top: 0px;
 
 }
@@ -69,13 +69,17 @@ body {
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
-  height: 700px;
+  height: 500px;
   color: white;
   text-align: center;
 }
 
-footer {
+section {
+    height: 450px;
+}
 
+footer {
+  
 }
 
 /******************************************
@@ -89,27 +93,41 @@ h1 {
   float: left;
   margin: 80px;
   margin-top: 25px;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
   
 }
 
 h2 {
   font-size: 24px;
-  font-weight: 550;
+  font-weight: 600;
   clear:left;
   padding: 10px;
-  margin: 70px 0;
+  margin-bottom: 30px;
+}
+
+#sect1 {
+  background-color: #f0efef;
+  color: #606161;
+  padding: 80px;
 }
 
 #benefit {
   font-size: 20px;
   padding: 0;
   margin: 0;
-  font-weight: 550;
+  font-weight: 600;
+  color: #033048;
+  margin-bottom: 20px;
 }
 
-.sect1 {
-  background-color: #f0efef;
+p{
+  width: 300px;
+}
+
+ul {
+  list-style-type: disc;
+  padding: 30px 30px 30px 50px;
+  width: 40%;
 }
 
 #getButton {
@@ -120,9 +138,56 @@ h2 {
   background-color: #f9e42e;
   padding: 10px;
   width: 200px;
-  margin: 70px 0;
 }
 
+#sect2 {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+p.quote {
+  display: inline-block;
+  font-style: italic;
+  font-weight: 100;
+  padding: 10px;
+  font-size: 18px;
+  width: 400px;
+}
+
+.stripe {
+  padding: 25px;
+  width: 100%;
+  background-color: #f9e42e;
+  margin-top: 30px;
+}
+
+.centerButton {
+  display: block;
+  margin: 0 auto;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #033048;
+  color: white;
+  height: 50px;
+  width: 300px;
+}
+
+span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+img {
+  margin: 10px 10px;
+}
+
+#botRelaxr {
+  margin-bottom: 10px;
+  color: #f9e42e;
+}
 
 
 
